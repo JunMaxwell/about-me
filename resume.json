@@ -57,7 +57,7 @@
     "skills": [
       {
         "name": "Web Development",
-        "level": "Mid Level",
+        "level": "Proficient",
         "keywords": [
           "JavaScript",
           "React.JS",
@@ -84,7 +84,7 @@
       },
       {
         "name": "3D Design",
-        "level": "Good",
+        "level": "intermediate",
         "keywords": [
           "Blender",
           "3D",
@@ -117,25 +117,29 @@
         "name": "Metaverse by Fromlabs",
         "description": "Virtual Space to bring people together, cooperative spaces.",
         "highlights": [
-          "Three.js for WebGL",
-          "React.js for UI",
-          "Express.js - Node.js for Backend",
-          "Blender for 3D Designing.",
-          "MongoDB for Database.",
-          "HTML/CSS - Bootstrap",
-          "Atlassian Jira for Project Management & Collaboration."
+          "Create site using React.JS for UI",
+          "Mix with Three.JS for 3D rendering and 3D interaction",
+          "Express.JS for backend and communicate with MongoDB Database",
+          "Use Socket.IO for real-time rendering between users and server",
+          "Use WebRTC for real-time communication between users",
+          "Blender for 3D modeling and animation",
+          "Apply with multiple other microservices such as: Keycloak, Squidex, etc. to provide a complete solution"
         ],
         "keywords": [
           "WebGL",
           "React.js",
-          "Metaverse"
+          "Metaverse",
+          "JavaScript",
+          "Three.js",
+          "MongoDB",
+          "TypeScript"
         ],
         "startDate": "2021-10-09",
         "url": "https://space.fromlabs.com/",
         "roles": [
-          "Technical Lead",
           "Project Manager",
-          "Developer"
+          "Developer",
+          "Technical Lead"
         ],
         "type": "3D Web application"
       },

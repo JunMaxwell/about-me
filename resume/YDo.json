@@ -10,7 +10,7 @@
   },
   "meta": {
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2023-01-03T15:40:20.167Z"
+    "modified": "2023-01-03T16:03:34.316Z"
   },
   "location": {
     "city": "Ho Chi Minh",
@@ -54,7 +54,7 @@
     "sets": [
       {
         "name": "Web Development",
-        "level": "Mid Level",
+        "level": "Proficient",
         "skills": [
           "JavaScript",
           "React.JS",
