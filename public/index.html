@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Do Thien Y&#39;s Resume</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        rel="stylesheet">
+        <style type="text/css">
+            @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+        @charset "utf-8";
+        @-webkit-viewport   { width: device-width; }
+        @-moz-viewport      { width: device-width; }
+        @-ms-viewport       { width: device-width; }
+        @-o-viewport        { width: device-width; }
+        @viewport           { width: device-width; }
+        
+        body{
+          font-family: 'Open Sans', Arial, Tahoma;
+          font-weight: 400;
+          color: rgb(255, 255, 255);
+          background-color: rgb(11, 19, 17);
+        }
+        blockquote {
+          font-size: 1em;
+        }
+        
+        .container{
+          margin-top: 80px;
+          margin-bottom: 15px;
+          background: rgb(0, 0, 0);
+        }
+        
+        .list-group-item {
+          background: rgb(0, 0, 0);
+          border-color: rgb(33, 33, 33);
+        }
+        
+        #photo-header{
+          margin-top: -75px;
+        }
+        #photo{
+          width: 160px;
+          height: 160px;
+          border-radius: 50%;
+          overflow: hidden;
+          padding: 5px;
+          background: rgb(76, 136, 36);
+          display: inline-block;
+        }
+        #photo img{
+          width: 150px;
+          height: 150px;
+          border-radius: 50%;
+        }
+        #text-header {
+          margin-top: 90px;
+        }
+        #text-header h1{
+          margin: 0;
+          padding: 0;
+          font-size: 1.5em;
+          font-weight: 700;
+          text-transform: uppercase;
+          letter-spacing: -1px;
+        }
+        #text-header h1::first-line{
+          font-size: 1.5em;
+          font-weight: 800;
+          line-height: 1.5em;
+        }
+        #text-header h1 span{
+          color: rgb(121, 189, 75);
+        }
+        #text-header h1 sup{
+          opacity: 0.5;
+        }
+        #text-header:after{
+          width: 100%;
+          height: 3px;
+          border-bottom: 1px solid rgb(33, 33, 33);
+          margin-top: 15px;
+          content: '';
+          display: block;
+        }
+        
+        .box{
+          padding-bottom: 10px;
+          margin-bottom: 25px;
+        }
+        .box h2{
+          color: rgb(76, 136, 36);
+          font-size: 1.5em;
+          font-weight: 700;
+          text-transform: uppercase;
+        }
+        
+        #awards,
+        #education{
+          margin-top: 20px;
+          margin-bottom: 0;
+          position: relative;
+          padding: 1em 0;
+          list-style: none;
+        }
+        #awards:before,
+        #education:before {
+          width: 5px;
+          height: 100%;
+          position: absolute;
+          left: 35px;
+          top: 0;
+          content: ' ';
+          display: block;
+          background: rgb(76, 136, 36);
+          background: -moz-linear-gradient(
+            top,
+            rgb(0, 0, 0) 0%,
+            rgb(76, 136, 36) 7%,
+            rgb(76, 136, 36) 89%,
+            rgb(0, 0, 0) 100%
+          );
+          background: -webkit-gradient(
+            linear,
+            left top,
+            left bottom,
+            color-stop(0%,rgb(0, 0, 0)),
+            color-stop(7%,rgb(76, 136, 36)),
+            color-stop(89%,rgb(76, 136, 36)),
+            color-stop(100%,rgb(0, 0, 0))
+          );
+          background: -webkit-linear-gradient(
+            top,
+            rgb(0, 0, 0) 0%,
+            rgb(76, 136, 36) 7%,
+            rgb(76, 136, 36) 89%,
+            rgb(0, 0, 0) 100%
+          );
+          background: -o-linear-gradient(
+            top,
+            rgb(0, 0, 0) 0%,
+            rgb(76, 136, 36) 7%,
+            rgb(76, 136, 36) 89%,
+            rgb(0, 0, 0) 100%
+          );
+          background: -ms-linear-gradient(
+            top,
+            rgb(0, 0, 0) 0%,
+            rgb(76, 136, 36) 7%,
+            rgb(76, 136, 36) 89%,
+            rgb(0, 0, 0) 100%
+          );
+          background: linear-gradient(
+            to bottom,
+            rgb(0, 0, 0) 0%,
+            rgb(76, 136, 36) 7%,
+            rgb(76, 136, 36) 89%,
+            rgb(0, 0, 0) 100%
+          );
+          filter: progid:DXImageTransform.Microsoft.gradient(
+            startColorstr='rgb(0, 0, 0)',
+            endColorstr='rgb(0, 0, 0)',
+            GradientType=0
+          );
+        }
+        #awards li,
+        #education li{
+          width: 100%;
+          z-index: 2;
+          position: relative;
+          float: left;
+        }
+        #awards .year,
+        #education .year{
+          width: 14%;
+          background: rgb(0, 0, 0);
+          padding: 10px;
+          font-weight: 700;
+          display: inline-block;
+        }
+        #awards .description,
+        #education .description{
+          width: 83%;
+          display: inline-block;
+          background: rgb(33, 33, 33);
+          margin-bottom: 10px;
+          position: relative;
+          padding: 10px;
+          border-bottom: 1px solid rgb(48, 48, 48);
+          border-right: 1px solid rgb(48, 48, 48);
+        }
+        #awards .description:after,
+        #education .description:after {
+          content: '';
+          position: absolute;
+          top: 15px;
+          right: 0;
+          left: -16px;
+          height: 0;
+          width: 0;
+          border: solid transparent;
+          border-right-color: rgb(33, 33, 33);
+          border-width: 8px;
+          pointer-events: none;
+        }
+        #awards .description h3,
+        #education .description h3{
+          font-size: 1.2em;
+          margin: 0;
+          padding: 0;
+          font-weight: 700;
+        }
+        #awards .description p,
+        #education .description p{
+          margin-top: 5px;
+          padding: 0;
+        }
+        
+        .job{
+          margin-bottom: 15px;
+        }
+        .job .details {
+          margin-left: 3%;
+          width: 95%;
+          padding: 10px;
+          margin-bottom: 10px;
+          background: rgb(33, 33, 33);
+          border-bottom: 1px solid rgb(48, 48, 48);
+          border-right: 1px solid rgb(48, 48, 48);
+        }
+        .job .where{
+          font-size: 1.2em;
+          font-weight: bold;
+        }
+        .job .year{
+          opacity: 0.7;
+        }
+        .job .profession{
+          font-size: 1.2em;
+          font-weight: bold;
+        }
+        .job .description{
+          line-height: 1.5em;
+        }
+        .job .highlights{
+          padding: 5px 0;
+          font-weight: bold;
+        }
+        .job .job-details {
+          padding-left: 5%;
+          width: 100%;
+        }
+        .publication {
+          margin-bottom: 0;
+        }
+        .publication .name{
+          font-size: 1em;
+          font-weight: bold;
+        }
+        .publication .year{
+            opacity: 0.7;
+        }
+        .publication p{
+          margin: 0;
+          padding-top: 10px;
+        }
+        
+        .contact-item{
+          width: 100%;
+          float: left;
+        }
+        .contact-item .icon{
+          padding: 10px;
+          border-right: 1px solid rgb(48, 48, 48);
+          border-bottom: 1px solid rgb(48, 48, 48);
+          color: rgb(255, 255, 255);
+          background: rgb(33, 33, 33);
+        }
+        .contact-item:last-child .icon{
+          border-bottom: none;
+        }
+        .contact-item .title{
+          width: 80%;
+          width: calc(100% - 55px);
+          font-weight: 700;
+          opacity: 0.9;
+        }
+        .contact-item .title.only{
+          margin-top: 10px;
+        }
+        .contact-item .description{
+          width: 80%;
+          width: calc(100% - 55px);
+          color: rgb(51, 96, 64);
+        }
+        
+        .item-interests,
+        .item-skills{
+          height: 30px;
+          color: rgb(255, 255, 255);
+          padding: 5px 10px;
+          margin-bottom: 5px;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          font-size: 1.1em;
+          font-weight: 600;
+        }
+        .interest,
+        .skill{
+          color: rgb(255, 255, 255);
+          display: inline-block;
+          margin-right: 5px;
+          margin-bottom: 5px;
+          padding: 5px 10px;
+          /* background: rgb(76, 136, 36); */
+          background: rgb(52, 92, 25);
+          position: relative;
+          font-size: .85em;
+        }
+        .skill-level {
+          background-color: rgb(76, 136, 36);
+          border-radius: 4px;
+          color: rgb(255, 255, 255);
+          padding: 1px 8px;
+          font-size: .75em;
+          position: absolute;
+          margin: 1px 10px;
+        }
+        
+        .project-keyword {
+          margin: 0;
+          padding: 0;
+        }
+        
+        ul.project-keyword li {
+          display: inline-block;
+          margin: 0;
+          padding: 0;
+          /* background: rgb(76, 136, 36); */
+          /* font-size: .85em; */
+        }
+        ul.project-keyword li::after {
+          /* padding: 0 0 0 0.1em; */
+          content: ", ";
+        }
+        ul.project-keyword li:last-of-type::after {
+          content: "";
+        }
+        
+        #language-skills .skill{
+          margin: 10px 0;
+          padding-bottom: 10px;
+          border-bottom: 1px solid rgb(33, 33, 33);
+        }
+        </style>
+        <style type="text/css" media="print">
+            body {
+          font-size: .95em;
+          -webkit-print-color-adjust: exact;
+        }
+        
+        a[href]:after {
+          content: none !important;
+        }
+        
+        .container{
+          margin-top: 0px;
+        }
+        
+        #photo{
+          display: none;
+        }
+        #photo-header{
+          margin-top: 0px;
+        }
+        #text-header {
+          margin-top: 10px;
+        }
+        
+        .box {
+          margin-bottom: -10px;
+        }
+        
+        blockquote,
+        #education,
+        #awards,
+        .contact-item,
+        .publication,
+        .skills,
+        .interests {
+          page-break-inside: avoid;
+        }
+        
+        .contact-item .icon{
+          border-right: 1px solid rgb(204, 204, 204);
+          border-bottom: 1px solid rgb(204, 204, 204);
+        }
+        
+        .col-sm-5{
+          width: 40%;
+          padding: 0 15px;
+        }
+        
+        .col-sm-7{
+          width: 60%;
+          padding: 0 15px;
+        }
+        
+        .skills .col-sm-offset-1,
+        .interests .col-sm-offset-1{
+          margin-top: -10px;
+          margin-bottom: 5px;
+        }
+        
+        #education {
+          margin: 0;
+          margin-bottom: -20px;
+        }
+        #awards:before,
+        #education:before {
+          background: none;
+        }
+        
+        #text-header:after{
+          border-bottom: 1px solid rgb(221, 221, 221);
+        }
+        
+        #awards .description,
+        #education .description,
+        .job .details {
+          border: 1px solid rgb(238, 238, 238);
+        }
+        .publication,
+        .publication .panel-heading,
+        .publication .name{
+          margin: 0;
+          padding: 0 5px;
+          border: none;
+        }
+        .publication .panel-body {
+          padding: 0 10px;
+          margin: 0;
+        }
+        
+        .badge {
+          margin: 0;
+        }
+        
+        .list-group-item{
+          border: none;
+          margin: 0;
+          padding: 5px 15px;
+        }
+        .list-group-item:after{
+          content: '';
+          position: absolute;
+          top: 8px;
+          right: 0;
+          left: -1px;
+          height: 0;
+          width: 0;
+          border: solid transparent;
+          border-right-color: rgb(153, 153, 153);
+          border-width: 4px;
+          pointer-events: none;
+        }
+        </style>
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div id="photo-header" class="text-center">
+                        <div id="text-header">
+                             <h1>Do Thien Y<br><span>Software Engineer</span></h1>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-7">
+                    <!-- ABOUT ME -->
+                    <div class="box">
+                         <h2><i class="fas fa-user ico"></i> About</h2>
+
+                        <p>+2 Years Experiences in software engineering, specialized in JavaScript
+                            Stacks and proficiency in frontend development. Looking forward to a brighter
+                            future in tech. Have experience in Scrum development. Milestone project:
+                            Metaverse by Fromlabs.</p>
+                    </div>
+                    <!-- WORK EXPERIENCE -->
+                    <div class="box">
+                         <h2><i class= "fas fa-suitcase ico"></i> Work Experience</h2>
+
+                        <div class="job clearfix">
+                            <div class="row">
+                                <div class="details">
+                                    <div class="where">Fromlabs Solution Ltd.</div>
+                                    <div class="address"> <a href="https:&#x2F;&#x2F;fromlabs.com" target="_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;fromlabs.com</a>
+
+                                    </div>
+                                    <div class="year">May 2020 – Present</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="job-details col-xs-11">
+                                    <div class="profession">Software Engineer</div>
+                                    <div class="description">Working as Fullstack developer, specialized in MERN Stacks and proficiency
+                                        in both Frontend and Backend development. Worked on multiple content management
+                                        sites and web applications.
+                                        <div class="highlights">Highlights</div>
+                                        <ul class="list-group">
+                                            <li class="list-group-item">Join as Internship around May 2020</li>
+                                            <li class="list-group-item">Started as Fullstack Software Enginner on August 2020</li>
+                                            <li class="list-group-item">Develop small management sites for clients, such as: Jaktent Event booking,
+                                                Restaurant management, etc.</li>
+                                            <li class="list-group-item">Kickstart Our3D Space project at September 2021</li>
+                                            <li class="list-group-item">Moved to Lead Developer of Metaverse by Fromlabs on April 2022</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- PROJECTS -->
+                    <div class="box">
+                         <h2><i class= "fas fa-code-branch ico"></i> Projects</h2>
+
+                        <div class="job clearfix">
+                            <div class="row">
+                                <div class="details">
+                                    <div class="where">Metaverse by Fromlabs</div>
+                                    <!-- <ul class="project-keyword">
+                      <li>WebGL</li>
+                      <li>React.js</li>
+                      <li>Metaverse</li>
+                    </ul> --> <span class="skill badge">WebGL</span>
+ <span class="skill badge">React.js</span>
+
+                                    <span
+                                    class="skill badge">Metaverse</span>
+                                        <div class="address"> <a href="https:&#x2F;&#x2F;space.fromlabs.com&#x2F;" target="_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;space.fromlabs.com&#x2F;</a>
+
+                                        </div>
+                                        <div class="year">October 2021 – Present</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="job-details col-xs-11">
+                                    <div class="description">Virtual Space to bring people together, cooperative spaces.
+                                        <div class="highlights">Highlights</div>
+                                        <ul class="list-group">
+                                            <li class="list-group-item">Three.js for WebGL</li>
+                                            <li class="list-group-item">React.js for UI</li>
+                                            <li class="list-group-item">Express.js - Node.js for Backend</li>
+                                            <li class="list-group-item">Blender for 3D Designing.</li>
+                                            <li class="list-group-item">MongoDB for Database.</li>
+                                            <li class="list-group-item">HTML/CSS - Bootstrap</li>
+                                            <li class="list-group-item">Atlassian Jira for Project Management &amp; Collaboration.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="job clearfix">
+                            <div class="row">
+                                <div class="details">
+                                    <div class="where">Indoor Drone R&amp;D</div>
+                                    <!-- <ul class="project-keyword">
+                      <li>AI</li>
+                      <li>Drone</li>
+                    </ul> --> <span class="skill badge">AI</span>
+ <span class="skill badge">Drone</span>
+
+                                    <div
+                                    class="year">November 2019 – June 2020</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="job-details col-xs-11">
+                                <div class="description">Indoor self navigation drone
+                                    <div class="highlights">Highlights</div>
+                                    <ul class="list-group">
+                                        <li class="list-group-item">Face recognition</li>
+                                        <li class="list-group-item">Automated flight</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-5">
+                <!-- CONTACT -->
+                <div class="box clearfix">
+                     <h2><i class="fas fa-bullseye ico"></i> Contact</h2>
+
+                    <div class="contact-item">
+                        <div class="icon pull-left text-center"><span class="fas fa-map-marker fa-fw"></span>
+                        </div>
+                        <div class="title only  pull-right">Ho Chi Minh, Vietnam 700000 Vietnam</div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon pull-left text-center"><span class="fas fa-phone fa-fw"></span>
+                        </div>
+                        <div class="title only pull-right">(+84) 77396 4407</div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon pull-left text-center"><span class="fas fa-envelope fa-fw"></span>
+                        </div>
+                        <div class="title only pull-right"><a href="mailto:haloany123@gmail.com" target="_blank">haloany123@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon pull-left text-center"><span class="fas fa-globe fa-fw"></span>
+                        </div>
+                        <div class="title only pull-right"><a href="https:&#x2F;&#x2F;github.com&#x2F;JunMaxwell" target="_blank">https:&#x2F;&#x2F;github.com&#x2F;JunMaxwell</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon pull-left text-center"><span class="fab fa-linkedin fa-fw"></span>
+                        </div>
+                        <div class="title pull-right">LinkedIn</div>
+                        <div class="description pull-right"><a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;y-do-06a168208"
+                            target="_blank">Y Do</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon pull-left text-center"><span class="fab fa-github fa-fw"></span>
+                        </div>
+                        <div class="title pull-right">GitHub</div>
+                        <div class="description pull-right"><a href="https:&#x2F;&#x2F;github.com&#x2F;JunMaxwell" target="_blank">JunMaxwell</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- EDUCATION -->
+                <div class="box">
+                     <h2><i class="fas fa-university ico"></i> Education</h2>
+
+                    <ul id="education" class="clearfix">
+                        <li>
+                            <div class="year pull-left">2016 2020</div>
+                            <div class="description pull-right">
+                                 <h3>Auckland University of Technology</h3>
+
+                                <div class="where"></div>
+                                <div class="address"> <a href="https:&#x2F;&#x2F;www.aut.ac.nz&#x2F;" target="_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;www.aut.ac.nz&#x2F;</a>
+
+                                </div>
+                                <p><i class="fas fa-graduation-cap ico"></i> Bachelor</p>
+                                <p>Computer &amp; Information Science</p>
+                                <p>Grade: 3.13 GPA</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- SKILLS -->
+                <div class="box">
+                     <h2><i class="fas fa-tasks ico"></i> Skills</h2>
+
+                    <div class="skills clearfix">
+                        <div class="item-skills">Web Development <span class="skill-level">Mid Level</span>
+
+                        </div>
+                        <div class="col-sm-offset-1 col-sm-12 clearfix"> <span class="skill badge">JavaScript</span>
+ <span class="skill badge">React.JS</span>
+
+                            <span
+                            class="skill badge">Three.JS</span> <span class="skill badge">Express.JS</span>
+ <span class="skill badge">MongoDB</span>
+
+                                <span
+                                class="skill badge">Node.JS</span> <span class="skill badge">TypeScript</span>
+ <span class="skill badge">HTML</span>
+
+                                    <span
+                                    class="skill badge">CSS</span> <span class="skill badge">Bootstrap</span>
+
+                        </div>
+                    </div>
+                    <div class="skills clearfix">
+                        <div class="item-skills">Frameworks <span class="skill-level">Good</span>
+
+                        </div>
+                        <div class="col-sm-offset-1 col-sm-12 clearfix"> <span class="skill badge">React.js</span>
+ <span class="skill badge">Express</span>
+
+                            <span
+                            class="skill badge">Three.js</span> <span class="skill badge">WebGL</span>
+ <span class="skill badge">Babylon.JS</span>
+
+                        </div>
+                    </div>
+                    <div class="skills clearfix">
+                        <div class="item-skills">3D Design <span class="skill-level">Good</span>
+
+                        </div>
+                        <div class="col-sm-offset-1 col-sm-12 clearfix"> <span class="skill badge">Blender</span>
+ <span class="skill badge">3D</span>
+
+                            <span
+                            class="skill badge">WebGL</span> <span class="skill badge">Model</span>
+ <span class="skill badge">Canvas</span>
+
+                        </div>
+                    </div>
+                    <div class="skills clearfix">
+                        <div class="item-skills">Tools</div>
+                        <div class="col-sm-offset-1 col-sm-12 clearfix"> <span class="skill badge">VS Code</span>
+ <span class="skill badge">Intellij IDEA</span>
+
+                            <span
+                            class="skill badge">Blender</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- LANGUAGES -->
+                <div class="box">
+                     <h2><i class="fas fa-language ico"></i> Languages</h2>
+
+                    <ul class="list-group">
+                        <li class=" list-group-item">English<span class="skill badge pull-right">Fluent</span>
+                        </li>
+                        <li class=" list-group-item">Vietnamse<span class="skill badge pull-right">Native Speaker</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </body>
+
+</html>

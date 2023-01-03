@@ -1,0 +1,128 @@
+$schema: 'https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json'
+basics:
+  name: 'Do Thien Y'
+  label: 'Software Engineer'
+  email: haloany123@gmail.com
+  image: ../assets/img/IMG_2070.png
+  url: 'https://github.com/JunMaxwell'
+  phone: '(+84) 77396 4407'
+  summary: '+2 Years Experiences in software engineering, specialized in JavaScript Stacks and proficiency in frontend development. Looking forward to a brighter future in tech. Have experience in Scrum development. Milestone project: Metaverse by Fromlabs.'
+  location:
+    postalCode: '700000'
+    city: 'Ho Chi Minh'
+    countryCode: Vietnam
+    region: Vietnam
+  profiles:
+    -
+      network: LinkedIn
+      username: 'Y Do'
+      url: 'https://www.linkedin.com/in/y-do-06a168208'
+    -
+      network: GitHub
+      username: JunMaxwell
+      url: 'https://github.com/JunMaxwell'
+work:
+  -
+    name: 'Fromlabs Solution Ltd.'
+    position: 'Software Engineer'
+    url: 'https://fromlabs.com'
+    startDate: '2020-05-07'
+    summary: 'Working as Fullstack developer, specialized in MERN Stacks and proficiency in both Frontend and Backend development. Worked on multiple content management sites and web applications.'
+    highlights:
+      - 'Join as Internship around May 2020'
+      - 'Started as Fullstack Software Enginner on August 2020'
+      - 'Develop small management sites for clients, such as: Jaktent Event booking, Restaurant management, etc.'
+      - 'Kickstart Our3D Space project at September 2021'
+      - 'Moved to Lead Developer of Metaverse by Fromlabs on April 2022'
+education:
+  -
+    institution: 'Auckland University of Technology'
+    url: 'https://www.aut.ac.nz/'
+    area: 'Computer & Information Science'
+    studyType: Bachelor
+    startDate: '2016-10-01'
+    endDate: '2020-10-11'
+    score: '3.13 GPA'
+skills:
+  -
+    name: 'Web Development'
+    level: 'Mid Level'
+    keywords:
+      - JavaScript
+      - React.JS
+      - Three.JS
+      - Express.JS
+      - MongoDB
+      - Node.JS
+      - TypeScript
+      - HTML
+      - CSS
+      - Bootstrap
+  -
+    name: Frameworks
+    level: Good
+    keywords:
+      - React.js
+      - Express
+      - Three.js
+      - WebGL
+      - Babylon.JS
+  -
+    name: '3D Design'
+    level: Good
+    keywords:
+      - Blender
+      - 3D
+      - WebGL
+      - Model
+      - Canvas
+  -
+    name: Tools
+    keywords:
+      - 'VS Code'
+      - 'Intellij IDEA'
+      - Blender
+languages:
+  -
+    language: English
+    fluency: Fluent
+  -
+    language: Vietnamse
+    fluency: 'Native Speaker'
+projects:
+  -
+    name: 'Metaverse by Fromlabs'
+    description: 'Virtual Space to bring people together, cooperative spaces.'
+    highlights:
+      - 'Three.js for WebGL'
+      - 'React.js for UI'
+      - 'Express.js - Node.js for Backend'
+      - 'Blender for 3D Designing.'
+      - 'MongoDB for Database.'
+      - 'HTML/CSS - Bootstrap'
+      - 'Atlassian Jira for Project Management & Collaboration.'
+    keywords:
+      - WebGL
+      - React.js
+      - Metaverse
+    startDate: '2021-10-09'
+    url: 'https://space.fromlabs.com/'
+    roles:
+      - 'Technical Lead'
+      - 'Project Manager'
+      - Developer
+    type: '3D Web application'
+  -
+    name: 'Indoor Drone R&D'
+    description: 'Indoor self navigation drone'
+    highlights:
+      - 'Face recognition'
+      - 'Automated flight'
+    keywords:
+      - AI
+      - Drone
+    startDate: 2019-11
+    endDate: '2020-06-01'
+    roles:
+      - Developer
+    type: 'Research & Development'

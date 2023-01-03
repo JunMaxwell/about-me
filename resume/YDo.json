@@ -1,0 +1,127 @@
+{
+  "name": "Do Thien Y",
+  "info": {
+    "label": "Software Engineer",
+    "brief": "+2 Years Experiences in software engineering, specialized in JavaScript Stacks and proficiency in frontend development. Looking forward to a brighter future in tech. Have experience in Scrum development. Milestone project: Metaverse by Fromlabs."
+  },
+  "contact": {
+    "email": "haloany123@gmail.com",
+    "phone": "(+84) 77396 4407"
+  },
+  "meta": {
+    "format": "FRESH@^1.0.0-beta",
+    "modified": "2023-01-03T15:40:20.167Z"
+  },
+  "location": {
+    "city": "Ho Chi Minh",
+    "region": "Vietnam",
+    "country": "Vietnam",
+    "code": "700000"
+  },
+  "employment": {
+    "history": [
+      {
+        "position": "Software Engineer",
+        "summary": "Working as Fullstack developer, specialized in MERN Stacks and proficiency in both Frontend and Backend development. Worked on multiple content management sites and web applications.",
+        "current": true,
+        "start": "2020-05-07",
+        "keywords": [],
+        "highlights": [
+          "Join as Internship around May 2020",
+          "Started as Fullstack Software Enginner on August 2020",
+          "Develop small management sites for clients, such as: Jaktent Event booking, Restaurant management, etc.",
+          "Kickstart Our3D Space project at September 2021",
+          "Moved to Lead Developer of Metaverse by Fromlabs on April 2022"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "level": "",
+    "history": [
+      {
+        "institution": "Auckland University of Technology",
+        "start": "2016-10-01",
+        "end": "2020-10-11",
+        "url": "https://www.aut.ac.nz/",
+        "summary": "",
+        "area": "Computer & Information Science",
+        "studyType": "Bachelor"
+      }
+    ]
+  },
+  "skills": {
+    "sets": [
+      {
+        "name": "Web Development",
+        "level": "Mid Level",
+        "skills": [
+          "JavaScript",
+          "React.JS",
+          "Three.JS",
+          "Express.JS",
+          "MongoDB",
+          "Node.JS",
+          "TypeScript",
+          "HTML",
+          "CSS",
+          "Bootstrap"
+        ]
+      },
+      {
+        "name": "Frameworks",
+        "level": "Good",
+        "skills": [
+          "React.js",
+          "Express",
+          "Three.js",
+          "WebGL",
+          "Babylon.JS"
+        ]
+      },
+      {
+        "name": "3D Design",
+        "level": "Good",
+        "skills": [
+          "Blender",
+          "3D",
+          "WebGL",
+          "Model",
+          "Canvas"
+        ]
+      },
+      {
+        "name": "Tools",
+        "skills": [
+          "VS Code",
+          "Intellij IDEA",
+          "Blender"
+        ]
+      }
+    ]
+  },
+  "social": [
+    {
+      "label": "LinkedIn",
+      "network": "LinkedIn",
+      "url": "https://www.linkedin.com/in/y-do-06a168208",
+      "user": "Y Do"
+    },
+    {
+      "label": "GitHub",
+      "network": "GitHub",
+      "url": "https://github.com/JunMaxwell",
+      "user": "JunMaxwell"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Vietnamse",
+      "fluency": "Native Speaker"
+    }
+  ]
+}
