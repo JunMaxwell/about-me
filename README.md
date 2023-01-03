@@ -10,7 +10,7 @@ npm run build-all
 Create only .html, file will be inside public folder
 ```bash
 npm run build-html
-```bash
+```
 
 Create only .pdf
 ```bash
