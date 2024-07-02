@@ -2,7 +2,7 @@
   "name": "Do Thien Y",
   "info": {
     "label": "Software Engineer",
-    "brief": "+2 Years Experiences in software engineering, specialized in JavaScript Stacks and proficiency in frontend development. Looking forward to a brighter future in tech. Have experience in Scrum development. Milestone project: Metaverse by Fromlabs."
+    "brief": "+4 Years of Experiences in software engineering, specialized in JavaScript/TypeScript Stacks and proficient in web development. Looking forward to a brighter future in tech."
   },
   "contact": {
     "email": "haloany123@gmail.com",
@@ -10,7 +10,7 @@
   },
   "meta": {
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2023-01-03T16:03:34.316Z"
+    "modified": "2024-07-02T08:05:58.227Z"
   },
   "location": {
     "city": "Ho Chi Minh",
@@ -21,10 +21,25 @@
   "employment": {
     "history": [
       {
+        "position": "Senior Software Developer",
+        "summary": "Working as Fullstack developer and team lead. Proficient in both Frontend and Backend development.",
+        "current": true,
+        "start": "2023-02-07",
+        "keywords": [],
+        "highlights": [
+          "Join as Senior Software Developer on February 2023",
+          "Leading a team of 10 developers",
+          "Develop IoT Management system for in-house project (Oil & Gas Industry)",
+          "Training and sharing knowledge with Business Unit",
+          "Develop and maintain multiple web applications for clients",
+          "Document and provide technical support for clients"
+        ]
+      },
+      {
         "position": "Software Engineer",
         "summary": "Working as Fullstack developer, specialized in MERN Stacks and proficiency in both Frontend and Backend development. Worked on multiple content management sites and web applications.",
-        "current": true,
         "start": "2020-05-07",
+        "end": "2023-02-05",
         "keywords": [],
         "highlights": [
           "Join as Internship around May 2020",
@@ -57,11 +72,8 @@
         "level": "Proficient",
         "skills": [
           "JavaScript",
-          "React.JS",
-          "Three.JS",
-          "Express.JS",
-          "MongoDB",
-          "Node.JS",
+          "ExpressJs",
+          "NodeJs",
           "TypeScript",
           "HTML",
           "CSS",
@@ -72,16 +84,45 @@
         "name": "Frameworks",
         "level": "Good",
         "skills": [
-          "React.js",
-          "Express",
-          "Three.js",
+          "ExpressJS",
+          "ThreeJs",
           "WebGL",
-          "Babylon.JS"
+          "BabylonJS",
+          "ReactJS",
+          "AngularJS",
+          "NestJS"
+        ]
+      },
+      {
+        "name": "Programming Languages",
+        "level": "Proficient",
+        "skills": [
+          "JavaScript",
+          "TypeScript",
+          "C#"
+        ]
+      },
+      {
+        "name": "Database",
+        "level": "Good",
+        "skills": [
+          "MongoDB",
+          "SQL",
+          "NoSQL"
+        ]
+      },
+      {
+        "name": "Platform",
+        "level": "intermediate",
+        "skills": [
+          "AWS",
+          "Azure Devops",
+          "Serverless"
         ]
       },
       {
         "name": "3D Design",
-        "level": "Good",
+        "level": "intermediate",
         "skills": [
           "Blender",
           "3D",
@@ -94,7 +135,7 @@
         "name": "Tools",
         "skills": [
           "VS Code",
-          "Intellij IDEA",
+          "Intellij IDEAs",
           "Blender"
         ]
       }

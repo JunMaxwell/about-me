@@ -6,7 +6,7 @@ basics:
   image: ../assets/img/IMG_2070.png
   url: 'https://github.com/JunMaxwell'
   phone: '(+84) 77396 4407'
-  summary: '+2 Years Experiences in software engineering, specialized in JavaScript Stacks and proficiency in frontend development. Looking forward to a brighter future in tech. Have experience in Scrum development. Milestone project: Metaverse by Fromlabs.'
+  summary: '+4 Years of Experiences in software engineering, specialized in JavaScript/TypeScript Stacks and proficient in web development. Looking forward to a brighter future in tech.'
   location:
     postalCode: '700000'
     city: 'Ho Chi Minh'
@@ -23,10 +23,24 @@ basics:
       url: 'https://github.com/JunMaxwell'
 work:
   -
+    name: 'FPT Software'
+    position: 'Senior Software Developer'
+    url: 'https://www.fptsoftware.com/'
+    startDate: '2023-02-07'
+    summary: 'Working as Fullstack developer and team lead. Proficient in both Frontend and Backend development.'
+    highlights:
+      - 'Join as Senior Software Developer on February 2023'
+      - 'Leading a team of 10 developers'
+      - 'Develop IoT Management system for in-house project (Oil & Gas Industry)'
+      - 'Training and sharing knowledge with Business Unit'
+      - 'Develop and maintain multiple web applications for clients'
+      - 'Document and provide technical support for clients'
+  -
     name: 'Fromlabs Solution Ltd.'
     position: 'Software Engineer'
     url: 'https://fromlabs.com'
     startDate: '2020-05-07'
+    endDate: '2023-02-05'
     summary: 'Working as Fullstack developer, specialized in MERN Stacks and proficiency in both Frontend and Backend development. Worked on multiple content management sites and web applications.'
     highlights:
       - 'Join as Internship around May 2020'
@@ -49,11 +63,8 @@ skills:
     level: Proficient
     keywords:
       - JavaScript
-      - React.JS
-      - Three.JS
-      - Express.JS
-      - MongoDB
-      - Node.JS
+      - ExpressJs
+      - NodeJs
       - TypeScript
       - HTML
       - CSS
@@ -62,14 +73,37 @@ skills:
     name: Frameworks
     level: Good
     keywords:
-      - React.js
-      - Express
-      - Three.js
+      - ExpressJS
+      - ThreeJs
       - WebGL
-      - Babylon.JS
+      - BabylonJS
+      - ReactJS
+      - AngularJS
+      - NestJS
+  -
+    name: 'Programming Languages'
+    level: Proficient
+    keywords:
+      - JavaScript
+      - TypeScript
+      - 'C#'
+  -
+    name: Database
+    level: Good
+    keywords:
+      - MongoDB
+      - SQL
+      - NoSQL
+  -
+    name: Platform
+    level: intermediate
+    keywords:
+      - AWS
+      - 'Azure Devops'
+      - Serverless
   -
     name: '3D Design'
-    level: Good
+    level: intermediate
     keywords:
       - Blender
       - 3D
@@ -80,7 +114,7 @@ skills:
     name: Tools
     keywords:
       - 'VS Code'
-      - 'Intellij IDEA'
+      - 'Intellij IDEAs'
       - Blender
 languages:
   -
@@ -90,6 +124,28 @@ languages:
     language: Vietnamse
     fluency: 'Native Speaker'
 projects:
+  -
+    name: 'In-House project (undisclosed due to NDA)'
+    description: 'IoT Management System for Oil & Gas Industry'
+    highlights:
+      - 'Developed using MEAN Stacks'
+      - 'Use Express.JS for backend and communicate with MongoDB Database'
+      - 'Use Socket.IO for real-time rendering between users and server'
+      - 'Use RabbitMQ for message queue between microservices'
+      - 'Configure and deploy using Azure DevOps'
+    keywords:
+      - IoT
+      - MEAN
+      - Azure
+      - Express.JS
+      - MongoDB
+      - RabbitMQ
+    startDate: '2023-02-20'
+    roles:
+      - 'Main contact point'
+      - 'Team Lead'
+      - Developer
+    type: 'IoT Management System'
   -
     name: 'Metaverse by Fromlabs'
     description: 'Virtual Space to bring people together, cooperative spaces.'
@@ -110,6 +166,7 @@ projects:
       - MongoDB
       - TypeScript
     startDate: '2021-10-09'
+    endDate: '2023-02-05'
     url: 'https://space.fromlabs.com/'
     roles:
       - 'Project Manager'
