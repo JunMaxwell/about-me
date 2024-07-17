@@ -13,8 +13,8 @@
   },
   "scripts": {
     "build-all": "hackmyresume build resume.json TO resume/YDo.all -t node_modules/jsonresume-theme-stackoverflow",
-    "build-pdf": "hackmyresume build resume.json TO resume/YDo.pdf -t node_modules/jsonresume-theme-stackoverflow",
-    "build-html": "hackmyresume build resume.json TO public/index.html -t node_modules/jsonresume-theme-kendall-herink",
+    "build-html": "hackmyresume build resume.json TO resume/YDo.html -t node_modules/jsonresume-theme-stackoverflow",
+    "convert:pdf": "wkhtmltopdf --enable-local-file-access resume/YDo.html resume/YDo.pdf",
     "analyze": "hackmyresume analyze resume.json",
     "validate": "hackmyresume validate resume.json",
     "peek": "hackmyresume peek resume.json"

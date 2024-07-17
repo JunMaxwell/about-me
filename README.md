@@ -1,5 +1,21 @@
 # about-me
-Contain my CV built using JSON Resume 
+Contain my CV built using JSON Resume
+
+Requirement
+| Node Version | NPM Version | HackMyResume Version | wkhtmltopdf Version |
+|--------------|-------------|----------------------|----------------------|
+| 14.15.4      | 6.14.10     | 1.7.0                | 0.12.6               |
+
+## Installation
+Install hackmyresume globally
+```bash
+npm install hackmyresume -g
+```
+
+Install dependencies
+```bash
+npm install
+```
 
 ## Available Scripts
 Create new sets of resume files from resume.json to resume folder
@@ -10,11 +26,6 @@ npm run build-all
 Create only .html, file will be inside public folder
 ```bash
 npm run build-html
-```
-
-Create only .pdf
-```bash
-npm run build-pdf
 ```
 
 - **analyze** inspects your resume for keywords, duration, and other metrics.
@@ -32,4 +43,10 @@ npm run validate
 resume to standard output.
 ```bash
 npm run peek
+```
+
+- **convert** converts your resume to different formats (e.g., HTML, PDF, DOCX,
+etc.). Use it to generate resumes in different formats. Requires [wkhtmltopdf](https://wkhtmltopdf.org/downloads.html) installed
+```bash
+npm run convert:pdf
 ```
