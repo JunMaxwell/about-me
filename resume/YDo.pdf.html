@@ -226,7 +226,7 @@ section .location {
 
 #header > #profiles,
 #header > #contact,
-#skills,
+#skills, #skills2,
 #languages,
 #interests {
   display: -webkit-box;
@@ -504,17 +504,20 @@ section .location {
 
 #languages .item,
 #skills .item,
+#skills2 .item,
 #interests .item {
   width: 15em;
   padding: 0 0.5em 0.5em 0;
   border-bottom: none;
 }
 
-#skills .item {
+#skills .item,
+#skills2 .item {
   width: 16em;
 }
 
-#skills .item .keywords {
+#skills .item .keywords,
+#skills2 .item .keywords {
   width: 15em;
 }
 
@@ -731,7 +734,8 @@ section .location {
     font-size: 0.8rem;
     font-weight: 600;
   }
-  #skills .item {
+  #skills .item,
+  #skills2 .item {
     width: calc(100% / 3);
     padding: 0;
   }
@@ -741,7 +745,8 @@ section .location {
   ul.keywords::before {
     content: "Skills acquired: ";
   }
-  #skills .keywords::before {
+  #skills .keywords::before,
+  #skills2 .keywords::before {
     content: none;
   }
   .section p {
@@ -905,6 +910,8 @@ section .location {
     				<li>NoSQL</li>
     			</ul>
     		</div>
+    	</section>
+      <section id="skills2">
     		<div class="item">
     			<h3 class="name">
     				Platform
@@ -947,7 +954,7 @@ section .location {
     				<li>Blender</li>
     			</ul>
     		</div>
-    	</section>
+      </section>
     </section>
     <section class="section">
       <header>
@@ -1021,13 +1028,13 @@ section .location {
             </div>
           </header>
           <ul class="keywords">
-              <li>IoT</li>
               <li>MEAN</li>
-              <li>Azure</li>
               <li>Express.JS</li>
               <li>AngularJS</li>
               <li>Dockers</li>
               <li>MongoDB</li>
+              <li>IoT</li>
+              <li>Azure</li>
               <li>RabbitMQ</li>
           </ul>
           <div class="item">

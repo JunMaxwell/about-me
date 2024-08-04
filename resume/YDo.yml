@@ -130,15 +130,19 @@ projects:
     highlights:
       - 'Developed using MEAN Stacks'
       - 'Use Express.JS for backend and communicate with MongoDB Database'
+      - 'Use AngularJS for frontend and iFrame integration'
       - 'Use Socket.IO for real-time rendering between users and server'
       - 'Use RabbitMQ for message queue between microservices'
       - 'Configure and deploy using Azure DevOps'
+      - 'Using Docker and Portainer for containerization and management'
     keywords:
-      - IoT
       - MEAN
-      - Azure
       - Express.JS
+      - AngularJS
+      - Dockers
       - MongoDB
+      - IoT
+      - Azure
       - RabbitMQ
     startDate: '2023-02-20'
     roles:
