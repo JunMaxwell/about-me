@@ -186,6 +186,46 @@
         "type": "IoT Management System"
       },
       {
+        "name": "[Personal Project] Simple R3F Game",
+        "description": "Simple 3D ping pong game using React Three Fiber",
+        "highlights": [
+          "Developed using React Three Fiber",
+          "Use Three.JS for 3D rendering and 3D interaction"
+        ],
+        "keywords": [
+          "React Three Fiber",
+          "Three.JS",
+          "React.JS",
+          "JavaScript"
+        ],
+        "roles": [
+          "Developer"
+        ],
+        "url": "https://junmaxwell.github.io/r3f-game/",
+        "type": "3D Web application"
+      },
+      {
+        "name": "[Personal Project] Space invaders",
+        "description": "A very rudementary shooter game made for a coding challenge",
+        "highlights": [
+          "Developed purely in HTML, CSS, and JavaScript",
+          "Use ThreeJS for rendering but only use 2 axies for simplicity",
+          "Use Webpack for bundling and deployment"
+        ],
+        "keywords": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "ThreeJS",
+          "Webpack"
+        ],
+        "roles": [
+          "Developer"
+        ],
+        "url": "https://junmaxwell.github.io/space-invader-favie/",
+        "type": "2D Web application"
+      },
+      {
         "name": "Metaverse by Fromlabs",
         "description": "Virtual Space to bring people together, cooperative spaces.",
         "highlights": [
@@ -208,9 +248,8 @@
         ],
         "startDate": "2021-10-09",
         "endDate": "2023-02-05",
-        "url": "https://space.fromlabs.com/",
+        "url": "hhttps://space.fromlabs.com/rooms/?room=TA-7bce80663a34e9",
         "roles": [
-          "Project Manager",
           "Developer",
           "Technical Lead"
         ],
@@ -233,6 +272,14 @@
           "Developer"
         ],
         "type": "Research & Development"
+      }
+    ],
+    "certificates": [
+      {
+        "name": "Udacity - Cloud Developer Nanodegree",
+        "url": "https://confirm.udacity.com/e/058af020-fb65-11ed-addf-8304bc460e72",
+        "issuer": "Udacity",
+        "issueDate": "2023-11-10"
       }
     ]
   }
