@@ -64,7 +64,7 @@ skills:
     keywords:
       - JavaScript
       - ExpressJs
-      - NodeJs
+      - NodeJS
       - TypeScript
       - HTML
       - CSS
@@ -76,7 +76,6 @@ skills:
       - ExpressJS
       - ThreeJs
       - WebGL
-      - BabylonJS
       - ReactJS
       - AngularJS
       - NestJS
@@ -130,6 +129,7 @@ projects:
     highlights:
       - 'Developed using MEAN Stacks'
       - 'Use Express.JS for backend and communicate with MongoDB Database'
+      - 'Migration to NestJS for better performance and scalability'
       - 'Use AngularJS for frontend and iFrame integration'
       - 'Use Socket.IO for real-time rendering between users and server'
       - 'Use RabbitMQ for message queue between microservices'
@@ -138,6 +138,8 @@ projects:
     keywords:
       - MEAN
       - Express.JS
+      - NodeJS
+      - NestJS
       - AngularJS
       - Dockers
       - MongoDB
@@ -201,6 +203,7 @@ projects:
       - Three.js
       - MongoDB
       - TypeScript
+      - NodeJS
     startDate: '2021-10-09'
     endDate: '2023-02-05'
     url: 'hhttps://space.fromlabs.com/rooms/?room=TA-7bce80663a34e9'
@@ -217,6 +220,9 @@ projects:
     keywords:
       - AI
       - Drone
+      - 'Face Recognition'
+      - Python
+      - OpenCV
     startDate: 2019-11
     endDate: '2020-06-01'
     roles:

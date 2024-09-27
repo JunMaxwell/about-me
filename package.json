@@ -5,6 +5,9 @@
     "/assets",
     "index.js"
   ],
+  "engines": {
+    "node": "14.x"
+  },
   "version": "0.2.1",
   "description": "Thien Y Resume",
   "author": "Do Thien Y",

@@ -10,7 +10,7 @@
   },
   "meta": {
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2024-08-21T16:03:00.484Z"
+    "modified": "2024-09-27T03:45:02.340Z"
   },
   "location": {
     "city": "Ho Chi Minh",
@@ -73,7 +73,7 @@
         "skills": [
           "JavaScript",
           "ExpressJs",
-          "NodeJs",
+          "NodeJS",
           "TypeScript",
           "HTML",
           "CSS",
@@ -87,7 +87,6 @@
           "ExpressJS",
           "ThreeJs",
           "WebGL",
-          "BabylonJS",
           "ReactJS",
           "AngularJS",
           "NestJS"

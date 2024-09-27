@@ -77,7 +77,7 @@
         "keywords": [
           "JavaScript",
           "ExpressJs",
-          "NodeJs",
+          "NodeJS",
           "TypeScript",
           "HTML",
           "CSS",
@@ -91,7 +91,6 @@
           "ExpressJS",
           "ThreeJs",
           "WebGL",
-          "BabylonJS",
           "ReactJS",
           "AngularJS",
           "NestJS"
@@ -161,6 +160,7 @@
         "highlights": [
           "Developed using MEAN Stacks",
           "Use Express.JS for backend and communicate with MongoDB Database",
+          "Migration to NestJS for better performance and scalability",
           "Use AngularJS for frontend and iFrame integration",
           "Use Socket.IO for real-time rendering between users and server",
           "Use RabbitMQ for message queue between microservices",
@@ -170,6 +170,8 @@
         "keywords": [
           "MEAN",
           "Express.JS",
+          "NodeJS",
+          "NestJS",
           "AngularJS",
           "Dockers",
           "MongoDB",
@@ -244,7 +246,8 @@
           "JavaScript",
           "Three.js",
           "MongoDB",
-          "TypeScript"
+          "TypeScript",
+          "NodeJS"
         ],
         "startDate": "2021-10-09",
         "endDate": "2023-02-05",
@@ -264,7 +267,10 @@
         ],
         "keywords": [
           "AI",
-          "Drone"
+          "Drone",
+          "Face Recognition",
+          "Python",
+          "OpenCV"
         ],
         "startDate": "2019-11",
         "endDate": "2020-06-01",
